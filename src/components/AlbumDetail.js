@@ -1,5 +1,6 @@
 import React from "react";
 import { StyleSheet, View, Text, Image } from "react-native";
+import { backgroundColor } from "react-native/Libraries/Components/View/ReactNativeStyleAttributes";
 
 const AlbumDetail = (props) => {
   const { thumbnail_image, title, artist, image } = props.album;
@@ -13,8 +14,8 @@ const AlbumDetail = (props) => {
           }}
         />
         <View style={styles.headerContentStyle}>
-          <Text>{title}</Text>
-          <Text>{artist}</Text>
+          <Text style={styles.titleStyle}>{title}</Text>
+          <Text style={styles.artistStyle}>{artist}</Text>
         </View>
       </View>
       <View style={styles.cardSectionStyle}>
@@ -31,42 +32,51 @@ const AlbumDetail = (props) => {
 
 const styles = StyleSheet.create({
   thumbnailContainerStyle: {
-    flexDirection: "row",
-    justifyContent: "flex-start"
+    flexDirection: "column",
+    justifyContent: "flex-start",
+    alignItems: "center",
+
   },
   thumbnailStyle: {
     height: 50,
     width: 50,
-    margin: 5
+    margin: 5,
+    borderRadius: 25,
   },
   headerContentStyle: {
     flexDirection: "column",
     justifyContent: "space-around",
+    alignItems: "center",
     paddingLeft: 10
   },
   cardContainerStyle: {
     borderWidth: 1,
     borderRadius: 2,
-    borderColor: "#ddd",
-    shadowColor: "#000",
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.1,
-    shadowRadius: 2,
+    borderColor: "#333",
     elevation: 1,
     marginLeft: 5,
     marginRight: 5,
-    marginTop: 10
+    marginTop: 10,
+
   },
   cardSectionStyle: {
     padding: 5,
-    backgroundColor: "#fff",
-    borderColor: "#ddd",
+    backgroundColor: "#111",
+    borderColor: "#333",
     borderBottomWidth: 1
   },
   imageStyle: {
-    height: 300,
+    borderRadius: 5,
+    height: 400,
     width: null
-  }
+  },
+  titleStyle: {
+    fontSize: 24,
+    color: "#fff",
+  },
+  artistStyle: {
+    color: "#aaa",
+  },
 });
 
 export default AlbumDetail;
