@@ -1,0 +1,36 @@
+[{
+    "title": "Blonde",
+    "artist": "Frank Ocean",
+    "url": "https://www.amazon.com/Blonde-Explicit-Frank-Ocean/dp/B01LYRBECE",
+    "image": "https://m.media-amazon.com/images/I/71l4jnxG29L._SS500_.jpg",
+    "thumbnail_image": "https://images.genius.com/78a9a1403027e5778b473c71204b1ac0.728x728x1.jpg"
+ },
+ {
+    "title": "IGOR",
+    "artist": "Tyler, The Creator",
+    "url": "https://www.amazon.com/IGOR-Explicit-Creator-Tyler/dp/B07RS4FH7J",
+    "image": "https://m.media-amazon.com/images/I/81FL9iS8NiL._SS500_.jpg",
+    "thumbnail_image": "https://images.genius.com/4e9f66f62fdc9420b7b69482ae69c248.400x400x1.jpg"
+ },
+ {
+    "title": "Awaken, My Love!",
+    "artist": "Childish Gambino",
+    "url": "https://www.amazon.com/Awaken-My-Love-Childish-Gambino/dp/B01M3VA2A6",
+    "image": "https://m.media-amazon.com/images/I/810GyyWObmL._SY355_.jpg",
+    "thumbnail_image": "https://images.genius.com/90d733d87dcdbe5bb5f89062e6fb381f.500x500x1.jpg"
+ },
+ {
+    "title": "Freudian",
+    "artist": "Daniel Caesar",
+    "url": "https://www.amazon.com/Freudian-Explicit-Daniel-Caesar/dp/B074FZGLBH",
+    "image": "https://m.media-amazon.com/images/I/81o9lRqUjAL._SS500_.jpg",
+    "thumbnail_image": "https://images.genius.com/2693a7ed1e8f42df3cf01c297af875d8.1000x1000x1.jpg"
+ },
+ {
+    "title": "?",
+    "artist": "XXXTentacion",
+    "url": "https://www.amazon.com/XXXTENTACION/dp/B07C5K53Y3",
+    "image": "https://m.media-amazon.com/images/I/51wOB9F3KsL._SY355_.jpg",
+    "thumbnail_image": "https://images.genius.com/f72572986d8187cf35f0fc9f9d06afb2.900x900x1.jpg"
+ }
+]
